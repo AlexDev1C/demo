@@ -1,31 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
-	<ExternalDataProcessor uuid="3d3e4b0c-c3da-492a-8d2b-3709a9261bda">
-		<InternalInfo>
-			<xr:ContainedObject>
-				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
-				<xr:ObjectId>942447ed-dcb4-4c7d-acf2-dcef0212881a</xr:ObjectId>
-			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalDataProcessorObject.ТестУФ" category="Object">
-				<xr:TypeId>714d977a-0788-4d21-9d0d-8af74d7e99df</xr:TypeId>
-				<xr:ValueId>97587c10-6b40-4baf-9e6a-4c50e0805073</xr:ValueId>
-			</xr:GeneratedType>
-		</InternalInfo>
+	<Template uuid="bb94f9e6-cd83-4732-ac68-55f760ef1100">
 		<Properties>
-			<Name>ТестУФ</Name>
+			<Name>ПечФорма</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Тест УФ</v8:content>
+					<v8:content>Печ форма</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<DefaultForm>ExternalDataProcessor.ТестУФ.Form.Форма</DefaultForm>
-			<AuxiliaryForm/>
+			<TemplateType>SpreadsheetDocument</TemplateType>
 		</Properties>
-		<ChildObjects>
-			<Form>Форма</Form>
-			<Template>ПечФорма</Template>
-		</ChildObjects>
-	</ExternalDataProcessor>
+	</Template>
 </MetaDataObject>
